@@ -24,19 +24,18 @@ To implement QR decomposition algorithm using the Gram-Schmidt method.
 ## Program:
 ### Gram-Schmidt Method
 ```
+Program to find 2-norm of a matrix.
+Developed by: Karthikraj C
+RegisterNumber: 212224230117
 
-
-
-
-
-
-
+import numpy as np
+matrix=np.array(eval(input()))
+res=np.linalg.norm(matrix,2)
+print("{:.2f}".format(res))
 ```
 
 ## Output
-```
-
-```
+![alt text](<Screenshot 2025-05-21 235046.png>)
 
 ## Result
 Thus the QR decomposition algorithm using the Gram-Schmidt process is written and verified the result.
